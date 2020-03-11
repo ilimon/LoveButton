@@ -1,0 +1,47 @@
+.lovebutton-maxilary {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.lovebutton-maxilary .inner {
+    text-align: center;
+    display: inline-table;
+}
+
+.lovebutton-maxilary a {
+    background: #fff;
+    border: 1px solid #aaa;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.lovebutton-maxilary .icon {
+    padding-top: 13px;
+}
+
+.lovebutton-maxilary svg {
+    fill: #aaa;
+    transition: all 0.2s;
+}
+
+.lovebutton-maxilary a:hover svg {
+    fill: #666;
+}
+
+.lovebutton-maxilary a .active svg {
+    fill: #F44336;
+}
+
+.lovebutton-maxilary .total {
+    line-height: 50px;
+    font-size: 20px;
+    display: inline;
+}
